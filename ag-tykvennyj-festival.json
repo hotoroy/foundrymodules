@@ -1,0 +1,46 @@
+{
+  "id": "ag-tykvennyj-festival",
+  "title": "🎃 Тыквенный фестиваль",
+  "version": "1.0.1",
+  "coreVersion": "12.330",
+  "system": "dnd5e",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "url": "https://boosty.to/omar0275",
+  "manifest": "https://gitlab.com/adventure-girl/tykvennyj-festival/-/raw/main/module.json",
+  "download": "https://gitlab.com/adventure-girl/tykvennyj-festival/-/archive/main/tykvennyj-festival-main.zip",
+  "relationships": {
+    "recommends": [
+      {
+        "id": "laaru-dnd5-hw",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "styles": [
+    "styles/styles.css"
+  ],
+  "packs": [
+    {
+      "name": "tykvennyj-festival",
+      "label": "🎃 Тыквенный фестиваль",
+      "path": "packs/tykvennyj-festival",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "authors": [
+    {
+      "name": "Adventure Guys",
+      "discord": "https://discord.gg/xefpN9789E",
+      "url": "https://boosty.to/omar0275"
+    }
+  ]
+}
